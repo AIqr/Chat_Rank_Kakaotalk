@@ -7,6 +7,10 @@ var json = JSON.parse(Fs.read(mainPath+room)).sender + 1;
 */
 
 if (msg == ".채팅순위") {
+  //
+}
   
 if (msg == ".채팅순위리셋) {
+  Fs.write(mainPath + room, "{}"
+)
   
