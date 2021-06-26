@@ -2,7 +2,8 @@ const mainPath = "/sdcard/ChatRank/";
 const Fs = FileStream;
 
 var json = {};
-json[user] = sender;
+json[room] = room;
+
 
 
 var json = JSON.parse(Fs.read(mainPath+room)).sender + 1;
