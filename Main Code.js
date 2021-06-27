@@ -1,5 +1,7 @@
 const mainPath = "/sdcard/ChatRank/";
 const Fs = FileStream;
+const allsee = "".repeat(500);
+const nn = "
 
 var json = {};
 json[room] = room;
