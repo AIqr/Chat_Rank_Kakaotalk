@@ -1,7 +1,7 @@
 const mainPath = "/sdcard/ChatRank/";
 const Fs = FileStream;
 const allsee = "".repeat(500);
-const nn = "
+const nn = "\n\n";
 
 var json = {};
 json[room] = room;
@@ -20,4 +20,4 @@ if (msg == ".채팅순위") {
 if (msg == ".채팅순위리셋) {
   Fs.write(mainPath + room, "{}")
 }
-  
+
