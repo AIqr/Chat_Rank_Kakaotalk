@@ -15,6 +15,8 @@ var json = JSON.parse(Fs.read(mainPath+room)).sender + 1;
 
 if (msg == ".채팅순위") {
   //
+  replier.reply(
+    "채팅 순위입니다");
 }
   
 if (msg == ".채팅순위리셋) {
