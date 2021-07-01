@@ -1,6 +1,6 @@
 const mainPath = "/sdcard/ChatRank/";
 const Fs = FileStream;
-const allsee = "".repeat(500);
+const allsee = "\u200d".repeat(500);
 const nn = "\n\n";
 
 var json = {};
@@ -16,7 +16,7 @@ var json = JSON.parse(Fs.read(mainPath+room)).sender + 1;
 if (msg == ".채팅순위") {
   //
   replier.reply(
-    "채팅 순위입니다"
+    "채팅 순위입니다" + allsee
   + ""
   );
 }
