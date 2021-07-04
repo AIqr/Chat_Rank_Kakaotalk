@@ -11,6 +11,7 @@ json[room] = room;
 var json = JSON.parse(Fs.read(mainPath+room)).sender + 1;
 /*
 1 추가한 후 바로 정렬 돌리고 불러올 때 편하게 불러오기
+2. 메시지 오면 일단 저장하고 불러올때 정렬 -> 이게 더 메모리 적게먹을듯?
 */
 
 if (msg == ".채팅순위") {
