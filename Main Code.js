@@ -6,6 +6,8 @@ const nn = "\n\n";
 var json = {};
 json[room] = room;
 
+var time = 
+
 
 
 var json = JSON.parse(Fs.read(mainPath+room)).sender + 1;
@@ -25,5 +27,6 @@ if (msg == ".채팅순위") {
 if (msg == ".채팅순위리셋) {
   Fs.write(mainPath + room, "{}");
   replier.reply(room + "방에 저장된 채팅순위가 초기화되었습니다.");
+  replier.reply(time + "부터 기록이 재시작됩니다.");
 }
 
