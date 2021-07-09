@@ -20,7 +20,7 @@ if (msg == ".채팅순위") {
   //
   replier.reply(
     "채팅 순위입니다" + allsee
-  + ""
+  + "".sort()
   );
 }
   
