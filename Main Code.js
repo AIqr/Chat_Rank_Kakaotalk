@@ -3,6 +3,9 @@ const scriptName = "챗순위";
 const Fs = FileStream;
 const Path = "/sdcard/ChatRank/";
 
+
+var allsee = "\u200d".repeat (500);
+
 var file = {};
 var arr = [];
 
@@ -48,7 +51,7 @@ function response(room, msg, sender, isGroupChat, replier, imageDB, packageName)
         + "\n채팅: " + file["today"].find(e => e.name == arr[i]).times + "회");
       }
       
-     replier.reply(temp.join("\n\n"));
+     replier.reply(allsee + "\n"+temp.join("\n\n"));
     }
     
     
