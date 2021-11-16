@@ -13,7 +13,7 @@ var allChatSum = 0;
 function response(room, msg, sender, isGroupChat, replier, imageDB, packageName) {
   try {
     
-    if (room != "카톡봇 테스트방") return;
+    //if (room != "카톡봇 테스트방") return;
     if (!Fs.read(Path + room)) reset(room);
     
     
